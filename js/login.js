@@ -21,7 +21,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
         console.log('Valid User');
     }
     else {
-        console.log('Invlid User');
+        alert('Password Thik Kore den.Password Kamne Vulen!!');
     }
 
 
