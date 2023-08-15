@@ -23,6 +23,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     else {
         alert('Password Thik Kore den.Password Kamne Vulen!!');
     }
+    window.location.href = "bank.html";
 
 
 })
