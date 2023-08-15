@@ -18,12 +18,12 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     // spet 4: verify email and password and check wheteher valid user or not
 
     if (email === 'saimasraboni33@gmail.com' && password === 'iloveyouhoney') {
-        console.log('Valid User');
+        window.location.href = "bank.html";
     }
     else {
         alert('Password Thik Kore den.Password Kamne Vulen!!');
     }
-    window.location.href = "bank.html";
+    
 
 
 })
